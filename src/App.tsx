@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.scss';
 
 import NavBar from './NavBar/NavBar';
+import Footer from './Footer/Footer';
 
 
 
@@ -12,6 +13,7 @@ function App() {
       <div className="container">
         <div className="App">
           <NavBar> </NavBar>
+          <Footer></Footer>
         </div>
       </div>
   );
