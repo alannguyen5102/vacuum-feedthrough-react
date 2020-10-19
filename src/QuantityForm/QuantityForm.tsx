@@ -1,4 +1,5 @@
 import React from 'react';
+import './QuantityForm.scss';
 
 export default class QuantityForm extends React.Component {
     render() {
