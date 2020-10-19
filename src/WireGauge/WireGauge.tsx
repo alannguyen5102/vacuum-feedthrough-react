@@ -1,4 +1,5 @@
 import React from 'react';
+import InputGroup from '../InputGroup/InputGroup';
 import LabelAddOn from '../LabelAddOn/LabelAddOn';
 interface IProps {
 }
@@ -19,14 +20,14 @@ export default class WireGauge extends React.Component<IProps, IState> {
   render() {
     return (
         
-        <div className="input-group">
+        <InputGroup>
             <LabelAddOn htmlFor="wire-gauge-box">Wire Gauge*</LabelAddOn>
             <select className="form-control" value={this.state.value} onChange={this.handleChange}>            <option value="grapefruit">Grapefruit</option>
                 <option value="lime">Lime</option>
                 <option value="coconut">Coconut</option>
                 <option value="mango">Mango</option>
             </select>
-        </div>
+        </InputGroup>
 
 
     );
