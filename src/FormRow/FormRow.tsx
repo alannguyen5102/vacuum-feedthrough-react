@@ -1,4 +1,5 @@
 import React from 'react';
+import './FormRow.scss';
 
 export default class FormRow extends React.Component {
     render() {
