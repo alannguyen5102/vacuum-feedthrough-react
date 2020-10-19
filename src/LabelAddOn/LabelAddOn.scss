@@ -1,0 +1,11 @@
+$BCEblue: rgb(24,157,198);
+//Style for addon text
+.addon-text {
+	color: $BCEblue;
+	font-weight: bold;
+}
+
+/* Making the input addons text blue and bold */
+label.input-group-addon {
+	@extend .addon-text;
+}
